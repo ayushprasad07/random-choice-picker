@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+.container{
+    width: 80%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+input{
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    width: 100%;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+button{
+    margin-top:1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1rem;
+}
